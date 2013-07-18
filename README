@@ -1,5 +1,24 @@
-This is a simple bash script to manage your QEMU instances
+README
 
-It supports the creation, deletion, and running of QEMU instances
+    This is a simple bash script to manage your QEMU instances
 
+    It supports the creation, deletion, and running of QEMU instances
+
+
+CONFIGURATION
+
+    The configuration file is located in ~/.config/qemu-manager/qemu-manager.conf  
+    and has the format:
+
+	Name,Memory(MB),Architecture,CPU,Cores
+
+	The name is unique to every VM
+	The memory is the RAM in MB. It is also possible to specify other suffixes such as G for Gigiabyte
+	The architecture is one supported by QEMU, such as i386, or x86_64
+	The CPU is one found by "qemu -cpu ?", by default it is "host"
+	The number of cores is the number of cores that the guest VM will see
+
+CONTACT
+    
+    If you have any questions, problems, or ideas, feel free to email me at alfonzo1955@gmail.coom
 
