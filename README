@@ -19,6 +19,15 @@ CONFIGURATION
 	The number of cores is the number of cores that the guest VM will see
 
 CONTACT
-    
+
     If you have any questions, problems, or ideas, feel free to email me at alfonzo1955@gmail.coom
+
+CHANGELOG
+
+    2013-07-17
+	-Initial creation
+
+    2013-07-18
+	-Added more documentation
+	-Added ability to edit vms
 
