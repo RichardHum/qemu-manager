@@ -1,0 +1,5 @@
+This is a simple bash script to manage your QEMU instances
+
+It supports the creation, deletion, and running of QEMU instances
+
+
