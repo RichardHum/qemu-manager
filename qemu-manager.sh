@@ -63,7 +63,7 @@ runmenu()
     read k
 
     #if not yes, than always no
-    if [ $k != "y" ]; then
+    if [ "$k" != "y" ]; then
 	k='n'
     fi
 
