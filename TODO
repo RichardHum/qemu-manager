@@ -6,3 +6,6 @@ Add more documentation
 Standardize usage of RAM and memory
 
 More QEMU options
+    Add function for custom networking
+    Add function for more disks
+    Add function for virtio
