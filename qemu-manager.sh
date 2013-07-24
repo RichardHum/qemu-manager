@@ -12,11 +12,11 @@ HDDDIR="$HOME/qemu-images"
 init()
 {
     if [ ! -d $CONFDIR ]; then
-	mkdir $CONFDIR
+	mkdir -p $CONFDIR
     fi
 
     if [ ! -d $HDDDIR ]; then
-	mkdir $HDDDIR
+	mkdir -p $HDDDIR
     fi
 
     if [ ! -f $CONFDIR/$CONFFILE ]; then
